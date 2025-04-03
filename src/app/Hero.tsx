@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import background from "@/../public/images/herobackground.png";
 import cardImage from "@/../public/images/homecard.png";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -36,7 +37,7 @@ function Hero() {
         className="w-full absolute justify-center align-center flex"
         style={{ bottom: "-239px" }}
       >
-        <a
+        <Link
           href="#"
           className="justify-center  md:flex-row md:w-[1344px] h-[698px] w-[1344px]  z-1 flex flex-col items-center primarygreenbackground border border-gray-200 rounded-3xl shadow-sm  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
         >
@@ -71,7 +72,7 @@ function Hero() {
               </div>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
     </div>
   );

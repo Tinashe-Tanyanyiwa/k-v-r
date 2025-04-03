@@ -5,6 +5,7 @@ import menu from "@/app/menu.json";
 import menuitems from "@/app/menuitems.json";
 import menuMeat from "@/../public/images/menumeat.png";
 import Image from "next/image";
+import Link from "next/link";
 
 function Menu() {
   const [isOpen, setIsOpen] = useState(false); // State to track dropdown visibility
@@ -112,7 +113,7 @@ function Menu() {
               >
                 <div className="py-1" role="none">
                   {/* <!-- Active: "bg-gray-100 text-gray-900 outline-hidden", Not Active: "text-gray-700" --> */}
-                  <a
+                  <Link
                     href="#"
                     className="block px-4 py-2 text-sm text-gray-700"
                     role="menuitem"
@@ -120,8 +121,8 @@ function Menu() {
                     id="menu-item-0"
                   >
                     Account settings
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#"
                     className="block px-4 py-2 text-sm text-gray-700"
                     role="menuitem"
@@ -129,8 +130,8 @@ function Menu() {
                     id="menu-item-1"
                   >
                     Support
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#"
                     className="block px-4 py-2 text-sm text-gray-700"
                     role="menuitem"
@@ -138,7 +139,7 @@ function Menu() {
                     id="menu-item-2"
                   >
                     License
-                  </a>
+                  </Link>
                   <form method="POST" action="#" role="none">
                     <button
                       type="submit"
@@ -201,48 +202,48 @@ function Menu() {
       >
         <ul className=" mr-[48px] flex items-center -space-x-px h-8 text-sm">
           <li>
-            <a
+            <Link
               href="#"
               aria-current="page"
               className="z-10 flex items-center justify-center w-[36px] h-[36px] rounded-[8px] p-[8px] bg-[#E2231A] text-white"
             >
               1
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="#"
               className="z-10 flex items-center justify-center w-[36px] h-[36px] rounded-[8px] p-[8px]  text-black"
             >
               2
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="#"
               className="z-10 flex items-center justify-center w-[36px] h-[36px] rounded-[8px] p-[8px]  text-black"
             >
               3
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="#"
               className="z-10 flex items-center justify-center w-[36px] h-[36px] rounded-[8px] p-[8px]  text-black"
             >
               4
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="#"
               className="z-10 flex items-center justify-center w-[36px] h-[36px] rounded-[8px] p-[8px]  text-black"
             >
               5
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="#"
               className="flex items-center justify-center w-[36px] h-[36px] rounded-[8px] p-[8px] border-[var(--strokeWidth)] bg-[#E2231AEB]"
             >
@@ -262,7 +263,7 @@ function Menu() {
                   d="m1 9 4-4-4-4"
                 />
               </svg>
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

@@ -1,16 +1,20 @@
 import React from "react";
 import Image from "next/image";
 import logo from "@/../public/images/logo.png";
+import Link from "next/link";
 
 function Navigation() {
   return (
     <nav className="bg-white border-gray-200  w-full ">
       <div className=" flex flex-wrap items-center justify-between mx-auto pl-4 pr-[48px] h-[112px]">
-        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <Link
+          href="/"
+          className="flex items-center space-x-3 rtl:space-x-reverse"
+        >
           {/* <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" /> */}
           <Image src={logo} width={200} height={48} alt="Kavara Kavara Logo" />
           {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> */}
-        </a>
+        </Link>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
@@ -38,38 +42,38 @@ function Navigation() {
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul className="gap-[52px] font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white  dark:border-gray-700">
             <li>
-              <a
+              <Link
                 href="#"
                 className="block py-2  primaryred font-roboto font-medium text-[15px] leading-[20px] tracking-[]x"
                 aria-current="page"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#"
                 className="block text-black py-2 font-roboto font-medium text-[15px] leading-[20px] tracking-[]"
               >
                 Menu
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#"
                 className="block text-black py-2 font-roboto font-medium text-[15px] leading-[20px] tracking-[]"
               >
                 About Us
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 href="#"
                 className="block text-black py-2 font-roboto font-medium text-[15px] leading-[20px] tracking-[]"
               >
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
