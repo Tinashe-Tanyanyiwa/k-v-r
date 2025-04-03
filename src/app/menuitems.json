@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Grilled Ribeye Steak",
+    "description": "A juicy ribeye steak grilled to perfection, served with a side of garlic mashed potatoes and seasonal vegetables.",
+    "price": 25.99,
+    "image": "/Images/menumeat.png"
+  },
+  {
+    "id": 2,
+    "name": "Grilled Ribeye Steak",
+    "description": "A juicy ribeye steak grilled to perfection, served with a side of garlic mashed potatoes and seasonal vegetables.",
+    "price": 25.99,
+    "image": "/Images/menumeat.png"
+  },
+  {
+    "id": 3,
+    "name": "Grilled Ribeye Steak",
+    "description": "A juicy ribeye steak grilled to perfection, served with a side of garlic mashed potatoes and seasonal vegetables.",
+    "price": 25.99,
+    "image": "/Images/menumeat.png"
+  },
+  {
+    "id": 4,
+    "name": "Grilled Ribeye Steak",
+    "description": "A juicy ribeye steak grilled to perfection, served with a side of garlic mashed potatoes and seasonal vegetables.",
+    "price": 25.99,
+    "image": "/Images/menumeat.png"
+  },
+  {
+    "id": 5,
+    "name": "Grilled Ribeye Steak",
+    "description": "A juicy ribeye steak grilled to perfection, served with a side of garlic mashed potatoes and seasonal vegetables.",
+    "price": 25.99,
+    "image": "/Images/menumeat.png"
+  },
+  {
+    "id": 6,
+    "name": "Grilled Ribeye Steak",
+    "description": "A juicy ribeye steak grilled to perfection, served with a side of garlic mashed potatoes and seasonal vegetables.",
+    "price": 25.99,
+    "image": "/Images/menumeat.png"
+  },
+  {
+    "id": 7,
+    "name": "Grilled Ribeye Steak",
+    "description": "A juicy ribeye steak grilled to perfection, served with a side of garlic mashed potatoes and seasonal vegetables.",
+    "price": 25.99,
+    "image": "/Images/menumeat.png"
+  },
+  {
+    "id": 8,
+    "name": "Grilled Ribeye Steak",
+    "description": "A juicy ribeye steak grilled to perfection, served with a side of garlic mashed potatoes and seasonal vegetables.",
+    "price": 25.99,
+    "image": "/Images/menumeat.png"
+  },
+  {
+    "id": 9,
+    "name": "Grilled Ribeye Steak",
+    "description": "A juicy ribeye steak grilled to perfection, served with a side of garlic mashed potatoes and seasonal vegetables.",
+    "price": 25.99,
+    "image": "/Images/menumeat.png"
+  }
+]
