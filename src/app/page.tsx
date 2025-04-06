@@ -10,6 +10,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import HeroTwo from "./HeroTwo";
 import Services from "./Services";
+import FooterTwo from "./FooterTwo";
 
 export default function Home() {
   return (
@@ -22,10 +23,11 @@ export default function Home() {
       {/* <Menu></Menu> */}
       <MenuTwo></MenuTwo>
       <Services></Services>
-      <Gallery></Gallery>
-      <Testimonials></Testimonials>
-      <Contact></Contact>
-      <Footer></Footer>
+      {/* <Gallery></Gallery> */}
+      {/* <Testimonials></Testimonials> */}
+      {/* <Contact></Contact> */}
+      {/* <Footer></Footer> */}
+      <FooterTwo></FooterTwo>
     </div>
   );
 }
