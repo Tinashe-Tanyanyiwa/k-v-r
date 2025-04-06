@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "price": "25.99",
+    "name": "Grilled Ribeye Steak",
+    "paragraph": "Juicy, slow-grilled ribs with a smoky BBQ glaze",
+    "image": "/images/hotpot.png"
+  },
+  {
+    "id": 2,
+    "price": "25.99",
+    "name": "Grilled Ribeye Steak ",
+    "paragraph": "Juicy, slow-grilled ribs with a smoky BBQ glaze",
+    "image": "/images/hotpot.png"
+  },
+  {
+    "id": 3,
+    "price": "25.99",
+    "name": "Grilled Ribeye Steak",
+    "paragraph": "Juicy, slow-grilled ribs with a smoky BBQ glaze",
+    "image": "/images/hotpot.png"
+  }
+]

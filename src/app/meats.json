@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "price": "15.25",
+    "name": "Mushurugwi Burger ",
+    "paragraph": "A juicy ribeye steak grilled to perfection, seasoned with a blend of garlic, rosemary, and black pepper.",
+    "image": "/images/meat1.png"
+  },
+  {
+    "id": 2,
+    "price": "25.00",
+    "name": "Grilled Rib Platter",
+    "paragraph": "A juicy ribeye steak grilled to perfection, seasoned with a blend of garlic, rosemary, and black pepper.",
+    "image": "/images/meat2.png"
+  },
+  {
+    "id": 3,
+    "price": "8.00",
+    "name": "Savory Flank Kebab Skewers",
+    "paragraph": "A juicy ribeye steak grilled to perfection, seasoned with a blend of garlic, rosemary, and black pepper.",
+    "image": "/images/meat3.png"
+  }
+]

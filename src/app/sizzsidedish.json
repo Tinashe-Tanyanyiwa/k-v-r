@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "price": "14.00",
+    "name": "Mushurugwi Burger ",
+    "paragraph": "A juicy ribeye steak grilled to perfection, seasoned with a blend of garlic, rosemary, and black pepper.",
+    "image": "https://example.com/images/john-doe.jpg"
+  },
+  {
+    "id": 2,
+    "price": "18.00",
+    "name": "Double Mushurugwi Burger ",
+    "paragraph": "A juicy ribeye steak grilled to perfection, seasoned with a blend of garlic, rosemary, and black pepper.",
+    "image": "https://example.com/images/john-doe.jpg"
+  },
+  {
+    "id": 3,
+    "price": "5.00",
+    "name": "French Toast Fries with Maple Syrup",
+    "paragraph": "A juicy ribeye steak grilled to perfection, seasoned with a blend of garlic, rosemary, and black pepper.",
+    "image": "https://example.com/images/john-doe.jpg"
+  }
+]

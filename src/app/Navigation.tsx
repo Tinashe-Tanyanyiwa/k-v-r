@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Navigation() {
   return (
-    <nav className="bg-white border-gray-200  w-full ">
+    <nav className="bg-[#0000001F] absolute top-0 left-0 right-0 z-2 border-gray-200  w-full ">
       <div className=" flex flex-wrap items-center justify-between mx-auto pl-4 pr-[48px] h-[112px]">
         <Link
           href="/"
@@ -40,11 +40,11 @@ function Navigation() {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="gap-[52px] font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white  dark:border-gray-700">
+          <ul className="gap-[52px] font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  bg-transparent ">
             <li>
               <Link
                 href="#"
-                className="block py-2  primaryred font-roboto font-medium text-[15px] leading-[20px] tracking-[]x"
+                className="border-b-3 border-[#C81C16] block py-2  text-white font-roboto font-medium text-[15px] leading-[20px] tracking-[]x"
                 aria-current="page"
               >
                 Home
