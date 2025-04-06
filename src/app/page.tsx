@@ -9,6 +9,7 @@ import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import HeroTwo from "./HeroTwo";
+import Services from "./Services";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <AboutTwo></AboutTwo>
       {/* <Menu></Menu> */}
       <MenuTwo></MenuTwo>
+      <Services></Services>
       <Gallery></Gallery>
       <Testimonials></Testimonials>
       <Contact></Contact>

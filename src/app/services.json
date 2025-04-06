@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Onsite Grilling",
+    "paragraph": "Experience the thrill of onsite grilling at your event with our expert team—it's sure to be a hit!",
+    "image": "/images/chefstwo.png"
+  },
+  {
+    "id": 2,
+    "name": "Food market stall",
+    "paragraph": "Visit our food market stall for a tasty treat! Enjoy our delicious grilled creations and have a fun culinary adventure!",
+    "image": "/images/cornbeef.png"
+  },
+  {
+    "id": 3,
+    "name": "Braai packs",
+    "paragraph": "Enjoy grilling at home with our ready-to-go braai kits, featuring marinated meats, tasty sides, and flavorful sauces!",
+    "image": "/images/sauce.png"
+  }
+]

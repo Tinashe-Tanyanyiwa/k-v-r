@@ -10,7 +10,7 @@ import sizzsidedish from "@/app/sizzsidedish.json";
 function MenuTwo() {
   return (
     <div className=" pt-[124px] w-full ">
-      <h1 className="] w-full  text-black  mb-2 font-roboto font-bold text-[48px] leading-[57.6px] tracking--0.5 text-center  ">
+      <h1 className="] w-full  text-black  mb-[80px] font-roboto font-bold text-[48px] leading-[57.6px] tracking--0.5 text-center  ">
         Taste The Sizzle
       </h1>
       <div className="mb-[44px] mx-[48px] gap-[24px] grid justify-center  grid-cols-2    ">
@@ -368,7 +368,7 @@ function MenuTwo() {
           </nav>
         </div>
       </div>
-      <div className="mb-[100px] mx-[48px] gap-[24px] grid justify-center  grid-cols-3    ">
+      <div className="mb-[176px] mx-[48px] gap-[24px] grid justify-center  grid-cols-3    ">
         {sizzsidedish.map((item) => (
           <div
             key={item.id}
