@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "How can I track my order? ",
+    "hint": "(Hint: It's easier than finding Waldo!)",
+    "drop": "Skrrrrrrt"
+  },
+  {
+    "id": 2,
+    "question": "How can I track my order? ",
+    "hint": "(Hint: It's easier than finding Waldo!)",
+    "drop": "Skrrrrrrt"
+  },
+  {
+    "id": 3,
+    "question": "How do I contact customer support? ",
+    "hint": "(Carrier pigeons not accepted, sorry!)",
+    "drop": "Skrrrrrrt"
+  },
+  {
+    "id": 4,
+    "question": "Do you offer international shipping? ",
+    "hint": " (Yes, we ship to the moon too!)",
+    "drop": "Skrrrrrrt"
+  },
+  {
+    "id": 5,
+    "question": "Can I change my order after it's been placed?  ",
+    "hint": "(Only if you say 'pretty please'!)",
+    "drop": "Skrrrrrrt"
+  }
+]
