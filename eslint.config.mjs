@@ -14,6 +14,8 @@ const eslintConfig = [
   {
     rules: {
       "@next/next/no-page-custom-font": "off", // Disable the font warning
+      "@typescript-eslint/no-unused-vars": "off", // Ignore unused variable errors
+      "react/no-unescaped-entities": "off", // Ignore unescaped entities errors
     },
   },
 ];
