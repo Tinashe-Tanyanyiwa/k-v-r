@@ -14,9 +14,15 @@ function Navigation() {
   const [logoSrc, setLogoSrc] = useState(logo);
 
   useEffect(() => {
-    setNavClass(pathname === "/" ? "absolute" : "relative");
-    setColor(pathname === "/" ? "bg-[#0000001F]" : "bg-white");
-    setLogoSrc(pathname === "/" ? logo : logo2); // Use pathname here
+    if (pathname === "/" || pathname === "/menu") {
+      setNavClass("absolute");
+      setColor("bg-[#0000001F]");
+      setLogoSrc(logo);
+    } else {
+      setNavClass("relative");
+      setColor("bg-white");
+      setLogoSrc(logo2);
+    }
   }, [pathname]);
 
   return (
@@ -74,7 +80,7 @@ function Navigation() {
             </li>
             <li>
               <Link
-                href="#"
+                href="/menu"
                 className="block text-black py-2 font-roboto font-medium text-[15px] leading-[20px] tracking-[]"
               >
                 Menu
