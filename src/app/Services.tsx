@@ -1,15 +1,28 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import green from "@/../public/images/green.png";
+import blank from "@/../public/images/blank.png";
 import services from "@/app/services.json";
 import chefstwo from "@/../public/images/chefstwo.png";
 import servbutt from "@/../public/images/servbutt.svg";
+import { usePathname } from "next/navigation";
 
 function Services() {
+  const pathname = usePathname();
+  const [title, setTitle] = useState("Our Services");
+  const [backg, setBackg] = useState(blank);
+
+  useEffect(() => {
+    setTitle(pathname === "/" ? "Our Flame-Fired Services" : "Our Services");
+    setBackg(pathname === "/" ? green : blank);
+  }, [pathname]);
+
   return (
     <div className="relative bg-[#0D4737] w-full ">
       <Image
-        src={green}
+        src={backg}
         alt="Outdoor food market grill"
         layout="fill"
         objectFit="cover"
@@ -17,7 +30,7 @@ function Services() {
       />
       <div className="py-[124px] relative">
         <h1 className=" w-full  text-white  mb-2 font-roboto font-bold text-[48px] leading-[57.6px] tracking--0.5 text-center  ">
-          Services we Offer
+          {title}
         </h1>
         <div className="w-full flex align-center justify-center">
           <div className="mt-[52px] mb-[44px] mx-[48px]  gap-[18px] grid justify-center  grid-cols-3    ">

@@ -1,17 +1,16 @@
 import React from "react";
-import Navigation from "../Navigation";
 import Image from "next/image";
-import backgroundcontact from "@/../public/images/contacthero.png";
+import promise from "@/../public/images/promise.png";
 
-function Contact() {
+function OurPromise() {
   return (
     <div className="w-full relative">
       <div>
-        <div className="w-full bg-[#020D0A80] h-[698px] absolute z-1"> </div>
+        <div className="w-full bg-[#00000085] h-[698px] absolute z-1"> </div>
         <div className="h-[698px] relative  w-full grid grid-cols-1 ">
           <Image
-            src={backgroundcontact}
-            alt="Background"
+            src={promise}
+            alt="a platter of grilled, tender, bbq plate "
             layout="fill"
             objectFit="cover"
             className="absolute inset-0 "
@@ -22,13 +21,12 @@ function Contact() {
                 <div className="mx-[32px]  relative flex  items-center justify-center">
                   <div>
                     <h1 className="mb-[50px] font-roboto font-semibold italic text-[124px] leading-[100%] tracking-normal text-center">
-                      Contact Us
+                      Our promise
                     </h1>
-                    <p className="mb-[28px] font-roboto font-normal text-[16px] leading-[20px] tracking-[-0.5%] text-center">
-                      Mon-Fri: 11am - 10pm, Sat-Sun: 9am - 11pm
-                    </p>
-                    <p className="font-roboto font-normal text-[16px] leading-[20px] tracking-[-0.5%] text-center">
-                      We're ready to be wherever you need us!
+                    <p className="mb-[28px] font-roboto font-bold text-[32px] leading-[1] tracking-[-0.02em] text-center">
+                      We promise backyard moments that sizzle with joy. To
+                      create unforgettable grilled dining experiences, one bite
+                      at a time
                     </p>
                   </div>
                 </div>
@@ -41,4 +39,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default OurPromise;

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "James Harkness",
+    "position": "Founder & CEO",
+    "image": "/images/team.png"
+  },
+  {
+    "id": 2,
+    "name": "James Harkness",
+    "position": "Founder & CEO",
+    "image": "/images/team.png"
+  },
+  {
+    "id": 3,
+    "name": "James Harkness",
+    "position": "Founder & CEO",
+    "image": "/images/team.png"
+  },
+  {
+    "id": 4,
+    "name": "James Harkness",
+    "position": "Founder & CEO",
+    "image": "/images/team.png"
+  },
+  {
+    "id": 5,
+    "name": "James Harkness",
+    "position": "Founder & CEO",
+    "image": "/images/team.png"
+  },
+  {
+    "id": 6,
+    "name": "James Harkness",
+    "position": "Founder & CEO",
+    "image": "/images/team.png"
+  },
+  {
+    "id": 7,
+    "name": "James Harkness",
+    "position": "Founder & CEO",
+    "image": "/images/team.png"
+  }
+]

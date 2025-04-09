@@ -82,7 +82,7 @@ function Navigation() {
             </li>
             <li>
               <Link
-                href="#"
+                href="/about"
                 className="block text-black py-2 font-roboto font-medium text-[15px] leading-[20px] tracking-[]"
               >
                 About Us
