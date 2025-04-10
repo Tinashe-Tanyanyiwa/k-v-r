@@ -4,7 +4,7 @@ import dish from "@/../public/images/dish.png";
 
 function ExploreMenu() {
   return (
-    <div className="w-full pb-[224px] relative">
+    <div className="w-full  relative">
       <div>
         <div className=" w-full bg-[#00000033] h-[698px] absolute z-1"> </div>
         <div className="h-[698px] relative  w-full grid grid-cols-1 ">

@@ -19,7 +19,9 @@ function page() {
       <GrillMasterPro></GrillMasterPro>
       <OurPromise></OurPromise>
       <OurTeam></OurTeam>
-      <ExploreMenu></ExploreMenu>
+      <div className="pb-[224px]">
+        <ExploreMenu></ExploreMenu>
+      </div>
       <FooterTwo></FooterTwo>
     </div>
   );

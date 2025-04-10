@@ -27,7 +27,7 @@ function Navigation() {
 
   return (
     <nav
-      className={`${color} ${navClass} top-0 left-0 right-0 z-2 border-gray-200 w-full`}
+      className={`${color} ${navClass} custom-shadow top-0 left-0 right-0 z-2 border-gray-200 w-full`}
     >
       <div className=" flex flex-wrap items-center justify-between mx-auto pl-4 pr-[48px] h-[112px]">
         <Link
