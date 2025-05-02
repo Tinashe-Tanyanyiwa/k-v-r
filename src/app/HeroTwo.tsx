@@ -7,7 +7,7 @@ import rectangle from "@/../public/images/rectangle.png";
 
 function HeroTwo() {
   return (
-    <div className="mb-176 relative w-full grid grid-cols-1 h-[1703px]">
+    <div className=" relative w-full grid grid-cols-1 h-[1703px]">
       <Image
         src={background}
         alt="Background"
