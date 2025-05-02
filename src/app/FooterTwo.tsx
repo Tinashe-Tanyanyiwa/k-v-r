@@ -64,7 +64,7 @@ function FooterTwo() {
           </div>
           <div className=" col-span-1 z-1 max-h-0">
             <div className=" w-full gap-[52px] ">
-              <h2 className="text-center font-roboto font-bold text-xl leading-[100%] tracking-normal">
+              <h2 className="text-white text-center font-roboto font-bold text-xl leading-[100%] tracking-normal">
                 Useful Links
               </h2>
               <p className=" text-center  my-[32px]  text-[#E2231A] text-base font-roboto font-medium text-[16px] leading-[20px] tracking-[]">
@@ -80,7 +80,7 @@ function FooterTwo() {
             <div className="flex justify-center items-center">
               <div>
                 <div className="flex justify-center items-center ">
-                  <h2 className="mb-[32px] font-roboto font-bold text-xl leading-[100%] tracking-normal">
+                  <h2 className="mb-[32px] text-white font-roboto font-bold text-xl leading-[100%] tracking-normal">
                     Contact Us
                   </h2>
                 </div>

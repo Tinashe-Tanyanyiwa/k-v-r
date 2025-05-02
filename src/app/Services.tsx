@@ -20,7 +20,7 @@ function Services() {
   }, [pathname]);
 
   return (
-    <div className="relative bg-[#0D4737] w-full ">
+    <div className="mb-[176px] relative bg-[#0D4737] w-full ">
       <Image
         src={backg}
         alt="Outdoor food market grill"

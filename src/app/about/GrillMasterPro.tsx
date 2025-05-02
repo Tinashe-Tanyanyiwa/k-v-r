@@ -25,10 +25,10 @@ function GrillMasterPro() {
         </div>
         <div className="bg-[#000000]  col-span-1 flex justify-center items-center ">
           <div>
-            <h1 className="pb-[10px] font-roboto font-bold text-[22px] leading-[1] tracking-normal text-center">
+            <h1 className="text-white pb-[10px] font-roboto font-bold text-[22px] leading-[1] tracking-normal text-center">
               Sourcing the best
             </h1>
-            <p className="font-roboto font-normal text-[18px] leading-[1] tracking-normal text-center">
+            <p className="text-white font-roboto font-normal text-[18px] leading-[1] tracking-normal text-center">
               We select only the highest quality, fresh ingredients.
             </p>
           </div>
@@ -47,10 +47,10 @@ function GrillMasterPro() {
       <div className="h-[448px] px-[48px] relative  w-full grid grid-cols-3 ">
         <div className="bg-[#000000]  col-span-1 flex justify-center items-center ">
           <div>
-            <h1 className="pb-[10px] font-roboto font-bold text-[22px] leading-[1] tracking-normal text-center">
+            <h1 className="text-white pb-[10px] font-roboto font-bold text-[22px] leading-[1] tracking-normal text-center">
               Mastering the basics
             </h1>
-            <p className="font-roboto font-normal text-[18px] leading-[1] tracking-normal text-center">
+            <p className="text-white font-roboto font-normal text-[18px] leading-[1] tracking-normal text-center">
               Our focus is on temperature control and grilling technique
             </p>
           </div>
@@ -67,10 +67,10 @@ function GrillMasterPro() {
         </div>
         <div className="bg-[#000000]  col-span-1 flex justify-center items-center ">
           <div>
-            <h1 className="pb-[10px] font-roboto font-bold text-[22px] leading-[1] tracking-normal text-center">
+            <h1 className="text-white pb-[10px] font-roboto font-bold text-[22px] leading-[1] tracking-normal text-center">
               Flavor infusion
             </h1>
-            <p className="font-roboto font-normal text-[18px] leading-[1] tracking-normal text-center">
+            <p className="text-white font-roboto font-normal text-[18px] leading-[1] tracking-normal text-center">
               We carefully select and apply spices and seasoning
             </p>
           </div>
@@ -88,10 +88,10 @@ function GrillMasterPro() {
         </div>
         <div className="bg-[#000000]  col-span-1 flex justify-center items-center ">
           <div>
-            <h1 className="pb-[10px] font-roboto font-bold text-[22px] leading-[1] tracking-normal text-center">
+            <h1 className="text-white pb-[10px] font-roboto font-bold text-[22px] leading-[1] tracking-normal text-center">
               Quality check
             </h1>
-            <p className="font-roboto font-normal text-[18px] leading-[1] tracking-normal text-center">
+            <p className="text-white font-roboto font-normal text-[18px] leading-[1] tracking-normal text-center">
               We ensure the quality of food before its served
             </p>
           </div>

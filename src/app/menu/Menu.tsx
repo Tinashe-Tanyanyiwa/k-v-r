@@ -25,10 +25,10 @@ function Menu() {
             />
             <div className="mx-[32px] my-[95px] relative flex  items-center justify-center">
               <div>
-                <h1 className="mb-[152px] font-roboto font-bold text-[72px] leading-[86px] tracking-[-0.5px] text-center">
+                <h1 className="text-white mb-[152px] font-roboto font-bold text-[72px] leading-[86px] tracking-[-0.5px] text-center">
                   Our Menu
                 </h1>
-                <p className="px-[189px] font-roboto font-medium text-[28px] leading-[39.2px] tracking-normal text-center text-center">
+                <p className="text-white px-[189px] font-roboto font-medium text-[28px] leading-[39.2px] tracking-normal text-center text-center">
                   Where Fire Meets Flavor, and Every Bite Tells a Story
                 </p>
               </div>

@@ -11,7 +11,7 @@ import FooterTwo from "../FooterTwo";
 
 function page() {
   return (
-    <div className=" bg-white items-center justify-items-center min-h-screen">
+    <div className="h-[100vh] bg-white items-center justify-items-center min-h-screen">
       <Navigation></Navigation>
       <About></About>
       <Services></Services>

@@ -20,10 +20,10 @@ function OurPromise() {
               <div className="  px-[17px]  w-[931.8px] h-[741.4px] ">
                 <div className="mx-[32px]  relative flex  items-center justify-center">
                   <div>
-                    <h1 className="mb-[50px] font-roboto font-semibold italic text-[124px] leading-[100%] tracking-normal text-center">
+                    <h1 className="text-white mb-[50px] font-roboto font-semibold italic text-[124px] leading-[100%] tracking-normal text-center">
                       Our promise
                     </h1>
-                    <p className="mb-[28px] font-roboto font-bold text-[32px] leading-[1] tracking-[-0.02em] text-center">
+                    <p className="text-white mb-[28px] font-roboto font-bold text-[32px] leading-[1] tracking-[-0.02em] text-center">
                       We promise backyard moments that sizzle with joy. To
                       create unforgettable grilled dining experiences, one bite
                       at a time

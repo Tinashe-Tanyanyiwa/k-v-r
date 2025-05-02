@@ -45,6 +45,7 @@ export default function NotFound() {
         <ExploreMenu></ExploreMenu>
       </div>
       <FooterTwo></FooterTwo>
+      
     </div>
   );
 }

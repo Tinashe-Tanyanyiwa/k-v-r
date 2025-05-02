@@ -14,7 +14,7 @@ import FooterTwo from "./FooterTwo";
 
 export default function Home() {
   return (
-    <div className="bg-white items-center justify-items-center min-h-screen    font-[family-name:var(--font-geist-sans)]">
+    <div className="h-[100vh] bg-white items-center justify-items-center min-h-screen    font-[family-name:var(--font-geist-sans)]">
       <Navigation></Navigation>
       {/* <Hero></Hero> */}
       <HeroTwo></HeroTwo>

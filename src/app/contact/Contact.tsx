@@ -20,13 +20,13 @@ function Contact() {
               <div className="  px-[17px]  w-[931.8px] h-[741.4px] ">
                 <div className="mx-[32px]  relative flex  items-center justify-center">
                   <div>
-                    <h1 className="mb-[50px] font-roboto font-semibold italic text-[124px] leading-[100%] tracking-normal text-center">
+                    <h1 className="text-white mb-[50px] font-roboto font-semibold italic text-[124px] leading-[100%] tracking-normal text-center">
                       Contact Us
                     </h1>
-                    <p className="mb-[28px] font-roboto font-normal text-[16px] leading-[20px] tracking-[-0.5%] text-center">
+                    <p className="text-white mb-[28px] font-roboto font-normal text-[16px] leading-[20px] tracking-[-0.5%] text-center">
                       Mon-Fri: 11am - 10pm, Sat-Sun: 9am - 11pm
                     </p>
-                    <p className="font-roboto font-normal text-[16px] leading-[20px] tracking-[-0.5%] text-center">
+                    <p className=" text-white font-roboto font-normal text-[16px] leading-[20px] tracking-[-0.5%] text-center">
                       We're ready to be wherever you need us!
                     </p>
                   </div>

@@ -20,7 +20,7 @@ function ExploreMenu() {
               <div className="  px-[17px]   h-[741.4px] ">
                 <div className="mx-[32px]  relative flex  items-center justify-center">
                   <div>
-                    <h1 className="mb-[50px] font-roboto font-bold text-[92px] leading-[120px] tracking-[-0.02em] text-center">
+                    <h1 className="text-white mb-[50px] font-roboto font-bold text-[92px] leading-[120px] tracking-[-0.02em] text-center">
                       Explore our menu and find your favorite dish!
                     </h1>
                     <div className="flex align-center justify-center">

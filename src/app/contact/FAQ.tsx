@@ -24,7 +24,7 @@ function FAQ() {
               />
               <div className="z-2 w-full h-full relative flex  items-center justify-center">
                 <div>
-                  <h1 className="pl-[12px] font-roboto font-semibold text-[48px] leading-[52px] tracking-normal text-left">
+                  <h1 className="text-white pl-[12px] font-roboto font-semibold text-[48px] leading-[52px] tracking-normal text-left">
                     Frequently Asked Questions
                   </h1>
                 </div>

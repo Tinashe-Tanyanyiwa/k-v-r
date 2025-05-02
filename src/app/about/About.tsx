@@ -21,10 +21,10 @@ function About() {
               <div className="  px-[17px]  w-[931.8px] h-[600px] ">
                 <div className="mx-[32px]  relative flex  items-center justify-center">
                   <div>
-                    <h1 className="mb-[50px] font-roboto font-semibold italic text-[124px] leading-[100%] tracking-normal text-center">
+                    <h1 className="text-white mb-[50px] font-roboto font-semibold italic text-[124px] leading-[100%] tracking-normal text-center">
                       About Us
                     </h1>
-                    <p className="mb-[28px] font-roboto font-semibold italic text-2xl leading-none tracking-normal text-center">
+                    <p className="text-white mb-[28px] font-roboto font-semibold italic text-2xl leading-none tracking-normal text-center">
                       Crafting flavors with natural cooking, where sizzles and
                       aroma meet the finest fresh ingredients
                     </p>
@@ -46,7 +46,7 @@ function About() {
                 <h1 className="text-[#E2231A] mb-[50px] font-roboto font-bold text-4xl leading-none tracking-tight align-middle">
                   Our Story
                 </h1>
-                <p className="mb-[28px] font-roboto font-normal text-2xl leading-none tracking-tight text-justify">
+                <p className="text-white mb-[28px] font-roboto font-normal text-2xl leading-none tracking-tight text-justify">
                   Kavara Kavara kicked off as a cozy family venture launched by
                   two adventurous brothers right in the vibrant heart of Harare.
                   Fueled by our passion for outdoor cooking and a promise to use

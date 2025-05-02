@@ -7,7 +7,7 @@ import rectangle from "@/../public/images/rectangle.png";
 
 function HeroTwo() {
   return (
-    <div className="relative w-full grid grid-cols-1 h-[1703px]">
+    <div className="mb-176 relative w-full grid grid-cols-1 h-[1703px]">
       <Image
         src={background}
         alt="Background"
@@ -27,10 +27,10 @@ function HeroTwo() {
             />
             <div className="mx-[32px] my-[208px] relative flex  items-center justify-center">
               <div>
-                <h1 className="mb-[66px] font-roboto font-bold text-6xl leading-[86px] tracking-[-0.5px] text-center">
+                <h1 className="mb-[66px] font-roboto font-bold text-6xl leading-[86px] tracking-[-0.5px] text-center text-white">
                   Bringing People Together Over Fire & Flavor
                 </h1>
-                <p className="font-roboto font-medium text-[20px] leading-none tracking-1percent text-center">
+                <p className="font-roboto font-medium text-[20px] leading-none tracking-1percent text-center text-white">
                   Authentic Grilling. Natural Cooking. Unforgettable Taste
                 </p>
               </div>
@@ -64,7 +64,7 @@ function HeroTwo() {
           </div>
         </div>
         <div>
-          <h1 className="mt-[96px] font-roboto font-bold text-[48px] leading-[57.6px] tracking--0.5 text-center">
+          <h1 className="mt-[96px] font-roboto font-bold text-[48px] leading-[57.6px] tracking--0.5 text-center text-white">
             March 25
           </h1>
         </div>
