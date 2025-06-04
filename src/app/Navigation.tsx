@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import logo from "@/../public/images/logo.png";
+import logo from "@/../public/images/logo2.png";
 import logo2 from "@/../public/images/logo2.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -16,20 +16,20 @@ function Navigation() {
   useEffect(() => {
     if (pathname === "/" || pathname === "/menu") {
       setNavClass("absolute");
-      setColor("bg-[#0000001F]");
+      setColor("bg-transparent");
       setLogoSrc(logo);
     } else {
       setNavClass("relative");
-      setColor("bg-white");
+      setColor("bg-transparent");
       setLogoSrc(logo2);
     }
   }, [pathname]);
 
   return (
     <nav
-      className={`${color} ${navClass} custom-shadow top-0 left-0 right-0 z-2 border-gray-200 w-full`}
+      className={`${color} ${navClass}  top-0 left-0 right-0 z-2 border-gray-200 w-full`}
     >
-      <div className=" flex flex-wrap items-center justify-between mx-auto pl-4 pr-[48px] h-[112px]">
+      <div className=" flex flex-wrap items-center justify-between mx-auto pl-[48px] pr-[48px] h-[124px]">
         <Link
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -37,8 +37,8 @@ function Navigation() {
           {/* <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" /> */}
           <Image
             src={logoSrc}
-            width={200}
-            height={48}
+            width={416}
+            height={60}
             alt="Kavara Kavara Logo"
           />
           {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> */}
@@ -72,7 +72,7 @@ function Navigation() {
             <li>
               <Link
                 href="/"
-                className="border-b-3 border-[#C81C16] block py-2  text-white font-roboto font-medium text-[15px] leading-[20px] tracking-[]x"
+                className="border-b-3 border-[#C81C16] block py-2  text-white font-roboto font-medium text-[18px] leading-[20px] tracking-[]x"
                 aria-current="page"
               >
                 Home
@@ -81,7 +81,7 @@ function Navigation() {
             <li>
               <Link
                 href="/menu"
-                className="block text-black py-2 font-roboto font-medium text-[15px] leading-[20px] tracking-[]"
+                className="block text-black py-2 font-roboto font-medium text-[18px] leading-[20px] tracking-[]"
               >
                 Menu
               </Link>
@@ -89,7 +89,7 @@ function Navigation() {
             <li>
               <Link
                 href="/about"
-                className="block text-black py-2 font-roboto font-medium text-[15px] leading-[20px] tracking-[]"
+                className="block text-black py-2 font-roboto font-medium text-[18px] leading-[20px] tracking-[]"
               >
                 About Us
               </Link>
@@ -98,7 +98,7 @@ function Navigation() {
             <li>
               <Link
                 href="/contact"
-                className="block text-black py-2 font-roboto font-medium text-[15px] leading-[20px] tracking-[]"
+                className="block text-black py-2 font-roboto font-medium text-[18px] leading-[20px] tracking-[]"
               >
                 Contact Us
               </Link>
