@@ -9,25 +9,25 @@ import { usePathname } from "next/navigation";
 
 function Navigation() {
   const pathname = usePathname(); // Use usePathname instead
-  const [navClass, setNavClass] = useState("relative");
-  const [color, setColor] = useState("bg-white");
+  const [navClass, setNavClass] = useState("absolute");
+  const [color, setColor] = useState("bg-transparent");
   const [logoSrc, setLogoSrc] = useState(logo);
 
   useEffect(() => {
     if (pathname === "/" || pathname === "/menu") {
-      setNavClass("absolute");
-      setColor("bg-transparent");
+      // setNavClass("absolute");
+      // setColor("bg-transparent");
       setLogoSrc(logo);
     } else {
-      setNavClass("relative");
-      setColor("bg-transparent");
+      // setNavClass("absolute");
+      // setColor("bg-transparent");
       setLogoSrc(logo2);
     }
   }, [pathname]);
 
   return (
     <nav
-      className={`${color} ${navClass}  top-0 left-0 right-0 z-2 border-gray-200 w-full`}
+      className={`bg-transparent ${navClass}  top-0 left-0 right-0 z-2 border-gray-200 w-full`}
     >
       <div className=" flex flex-wrap items-center justify-between mx-auto pl-[48px] pr-[48px] h-[124px]">
         <Link
@@ -80,8 +80,16 @@ function Navigation() {
             </li>
             <li>
               <Link
+                href="/shop"
+                className="block text-white py-2 font-roboto font-medium text-[18px] leading-[20px] tracking-[]"
+              >
+                Shop
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/menu"
-                className="block text-black py-2 font-roboto font-medium text-[18px] leading-[20px] tracking-[]"
+                className="block text-white py-2 font-roboto font-medium text-[18px] leading-[20px] tracking-[]"
               >
                 Menu
               </Link>
@@ -89,7 +97,7 @@ function Navigation() {
             <li>
               <Link
                 href="/about"
-                className="block text-black py-2 font-roboto font-medium text-[18px] leading-[20px] tracking-[]"
+                className="block text-white py-2 font-roboto font-medium text-[18px] leading-[20px] tracking-[]"
               >
                 About Us
               </Link>
@@ -98,7 +106,7 @@ function Navigation() {
             <li>
               <Link
                 href="/contact"
-                className="block text-black py-2 font-roboto font-medium text-[18px] leading-[20px] tracking-[]"
+                className="block text-white py-2 font-roboto font-medium text-[18px] leading-[20px] tracking-[]"
               >
                 Contact Us
               </Link>
