@@ -8,8 +8,46 @@ import campfire from "@/../public/images/campfire.png";
 
 function AboutTwo() {
   return (
-    <div className=" pt-[176px] w-full ">
-      <div className=" h-[441px]  grid grid-cols-2 z-1   ">
+    <div className=" pt-[176px]  w-full px-[48px]">
+      <div className=" h-[433px]  grid grid-cols-3 z-1   ">
+        <div className="relative h-full p-[52px] bg-black col-span-1  ">
+          <Image
+            src={meat}
+            alt="Chefs cooking"
+            layout="fill"
+            objectFit="cover"
+            className="absolute inset-0 z-0"
+          />
+        </div>
+        <div className="relative h-full bg-[#0D4737] col-span-1 flex justify-start">
+          <Image
+            src={green}
+            alt="Outdoor food market grill"
+            layout="fill"
+            objectFit="cover"
+            className="absolute inset-0 z-0"
+          />
+          <div className=" py-[150px] px-[52px] relative ">
+            <h1 className="mb-[12px] text-white font-roboto font-bold text-[36px] leading-tight tracking--2 text-center align-middle">
+              Nature's Embrace
+            </h1>
+            <p className="text-white font-roboto font-normal text-[24px] leading-display-small tracking--2 text-center align-middle">
+              Out here, we cook with flame – not just for the heat, but for the
+              connection it sparks. No shortcuts, just fire, smoke, and time.
+            </p>
+          </div>
+        </div>
+        <div className="h-full relative p-[52px] bg-black col-span-1  ">
+          <Image
+            src={meat}
+            alt="Chefs cooking"
+            layout="fill"
+            objectFit="cover"
+            className="absolute inset-0 z-0"
+          />
+        </div>
+      </div>
+      <div className=" h-[433px]  grid grid-cols-3 z-1   ">
         <div className="relative bg-[#0D4737] col-span-1 flex justify-start">
           <Image
             src={green}
@@ -20,28 +58,17 @@ function AboutTwo() {
           />
           <div className="py-[150px] px-[52px] relative ">
             <h1 className="mb-[12px] text-white font-roboto font-bold text-[36px] leading-tight tracking--2 text-center align-middle">
-              Nature's Embrace
+              The Fire's Lesson
             </h1>
             <p className="   text-white font-roboto font-normal text-[24px] leading-display-small tracking--2 text-center align-middle">
-              We chose the old ways. Wood smoke, open flames – they're not
-              shortcuts, they're the soul of flavor.
+              Tenderness wasn't given. It was earned. Through countless trials,
+              we learned the subtle dance of heat and time.
             </p>
           </div>
         </div>
         <div className="relative p-[52px] bg-black col-span-1  ">
           <Image
             src={chefs}
-            alt="Chefs cooking"
-            layout="fill"
-            objectFit="cover"
-            className="absolute inset-0 z-0"
-          />
-        </div>
-      </div>
-      <div className=" h-[441px]  grid grid-cols-2 z-1   ">
-        <div className="relative p-[52px] bg-black col-span-1  ">
-          <Image
-            src={meat}
             alt="Meat on grill"
             layout="fill"
             objectFit="cover"
@@ -67,7 +94,16 @@ function AboutTwo() {
           </div>
         </div>
       </div>
-      <div className=" h-[441px]  grid grid-cols-2 z-1   ">
+      <div className=" h-[441px]  grid grid-cols-3 z-1   ">
+        <div className="relative p-[52px] bg-black col-span-1  ">
+          <Image
+            src={campfire}
+            alt="Chefs cooking"
+            layout="fill"
+            objectFit="cover"
+            className="absolute inset-0 z-0"
+          />
+        </div>
         <div className="relative bg-[#0D4737] col-span-1 flex justify-start">
           <Image
             src={green}
@@ -88,7 +124,7 @@ function AboutTwo() {
         </div>
         <div className="relative p-[52px] bg-black col-span-1  ">
           <Image
-            src={campfire}
+            src={chefs}
             alt="Chefs cooking"
             layout="fill"
             objectFit="cover"

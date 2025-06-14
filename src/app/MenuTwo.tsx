@@ -6,13 +6,24 @@ import meats from "@/app/meats.json";
 import burgers from "@/app/burgers.json";
 import hotpot from "@/app/hotpot.json";
 import sizzsidedish from "@/app/sizzsidedish.json";
+import grillButton from "@/../public/images/grillButton.png";
 
 function MenuTwo() {
   return (
-    <div className=" pt-[124px] w-full ">
-      <h1 className="] w-full  text-black  mb-[80px] font-roboto font-bold text-[48px] leading-[57.6px] tracking--0.5 text-center  ">
+    <div className=" pt-[140px] w-full ">
+      {/* <h1 className="] w-full  text-black  mb-[80px] font-roboto font-bold text-[48px] leading-[57.6px] tracking--0.5 text-center  ">
         Taste The Sizzle
-      </h1>
+      </h1> */}
+      <div>
+        <h1 className="text-black  font-roboto font-bold text-[72px] leading-[86px] tracking-[-0.5px] text-center">
+          Taste the Sizzle
+        </h1>
+        <p className="px-[320px] mb-[72px] font-roboto font-medium text-[22px] leading-normal tracking-[-0.02em] text-center  text-[#E2231A]">
+          Grilled to perfection, smoked to capture every flavor – our menu is a
+          celebration of fire and the finest ingredients. It’s more than just
+          food. It’s a way of life.
+        </p>
+      </div>
       <div className="mb-[44px] mx-[48px] gap-[24px] grid justify-center  grid-cols-2    ">
         <div className=" items-center justify-center  col-span-1 ">
           {" "}
@@ -21,57 +32,20 @@ function MenuTwo() {
           </h3>
         </div>
         <div className=" items-center flex justify-end col-span-1 ">
-          <nav aria-label="Page navigation example">
-            <ul className="inline-flex -space-x-px text-sm">
-              <li className="">
-                <a
-                  href="#"
-                  className="text-black flex items-center justify-center w-9 h-9 rounded-lg border-2 border-[#E2231A]  p-2 transform "
-                >
-                  <span className="sr-only">Previous</span>
-                  <svg
-                    className="w-3 h-3 rtl:rotate-180"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 6 10"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 1 1 5l4 4"
-                    />
-                  </svg>
-                </a>
-              </li>
-
-              <li className="ml-[32px]">
-                <a
-                  href="#"
-                  className="flex items-center justify-center w-9 h-9 rounded-lg border bg-[#E2231AEB] p-2"
-                >
-                  <span className="sr-only">Next</span>
-                  <svg
-                    className="w-3 h-3 rtl:rotate-180"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 6 10"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="m1 9 4-4-4-4"
-                    />
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <div className={` flex align-center justify-center `}>
+            <button className="relative text-white  w-[440px] h-[62px] rounded-[4px] py-[14px] px-[32px]">
+              <Image
+                src={grillButton}
+                alt="Background"
+                layout="fill"
+                objectFit="cover"
+                className="absolute inset-0 z-0"
+              />
+              <p className="text-white font-roboto font-normal text-2xl leading-none tracking-normal align-middle z-1 relative">
+                See the Whole Grill
+              </p>
+            </button>
+          </div>
         </div>
       </div>
       <div className="mb-[100px] mx-[48px] gap-[24px] grid justify-center  grid-cols-3    ">
@@ -80,18 +54,18 @@ function MenuTwo() {
             key={item.id}
             className=" items-center justify-center  col-span-1  "
           >
-            <div className="w-full flex justify-center place-center rounded-tl-[52px] rounded-tr-[16px] rounded-br-[52px] rounded-bl-[16px] ">
+            <div className="w-full flex justify-center place-center  rounded-tr-[16px] rounded-br-[52px] rounded-bl-[16px] ">
               <div className="">
                 <div className="w-full h-[336px] relative">
                   <Image
                     src={item.image}
                     layout="fill"
                     objectFit="cover"
-                    className="h-[336px] w-full rounded-tl-[52px] rounded-tr-[16px]"
+                    className="h-[336px] w-full "
                     alt="A perfectly grilled steak with grill marks"
                   />
                 </div>
-                <div className="bg-black w-full  gap-3  pr-5 pb-5 pl-5 rounded-br-[52px] rounded-bl-[16px]">
+                <div className="bg-black w-full  gap-3  pr-5 pb-5 pl-5 ">
                   <div className=" py-1">
                     <p className=" pt-[16px] text-center text-white font-roboto font-medium text-[28px] leading-[39.2px] tracking-0">
                       {item.price}
@@ -119,57 +93,20 @@ function MenuTwo() {
           </h3>
         </div>
         <div className=" items-center flex justify-end col-span-1 ">
-          <nav aria-label="Page navigation example">
-            <ul className="inline-flex -space-x-px text-sm">
-              <li className="">
-                <a
-                  href="#"
-                  className="text-black flex items-center justify-center w-9 h-9 rounded-lg border-2 border-[#E2231A]  p-2 transform "
-                >
-                  <span className="sr-only">Previous</span>
-                  <svg
-                    className="w-3 h-3 rtl:rotate-180"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 6 10"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 1 1 5l4 4"
-                    />
-                  </svg>
-                </a>
-              </li>
-
-              <li className="ml-[32px]">
-                <a
-                  href="#"
-                  className="flex items-center justify-center w-9 h-9 rounded-lg border bg-[#E2231AEB] p-2"
-                >
-                  <span className="sr-only">Next</span>
-                  <svg
-                    className="w-3 h-3 rtl:rotate-180"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 6 10"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="m1 9 4-4-4-4"
-                    />
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <div className={` flex align-center justify-center `}>
+            <button className="relative text-white  w-[440px] h-[62px] rounded-[4px] py-[14px] px-[32px]">
+              <Image
+                src={grillButton}
+                alt="Background"
+                layout="fill"
+                objectFit="cover"
+                className="absolute inset-0 z-0"
+              />
+              <p className="text-white font-roboto font-normal text-2xl leading-none tracking-normal align-middle z-1 relative">
+                See the Whole Grill
+              </p>
+            </button>
+          </div>
         </div>
       </div>
       <div className="mb-[100px] mx-[48px] gap-[24px] grid justify-center  grid-cols-3    ">
@@ -185,11 +122,11 @@ function MenuTwo() {
                     src={item.image}
                     layout="fill"
                     objectFit="cover"
-                    className="h-[336px] w-full rounded-tl-[52px] rounded-tr-[16px]"
+                    className="h-[336px] w-full "
                     alt="A perfectly grilled steak with grill marks"
                   />
                 </div>
-                <div className="bg-black w-full  gap-3  pr-5 pb-5 pl-5 rounded-br-[52px] rounded-bl-[16px]">
+                <div className="bg-black w-full  gap-3  pr-5 pb-5 pl-5 ">
                   <div className=" py-1">
                     <p className=" pt-[16px] text-center text-white font-roboto font-medium text-[28px] leading-[39.2px] tracking-0">
                       {item.price}
@@ -217,57 +154,20 @@ function MenuTwo() {
           </h3>
         </div>
         <div className=" items-center flex justify-end col-span-1 ">
-          <nav aria-label="Page navigation example">
-            <ul className="inline-flex -space-x-px text-sm">
-              <li className="">
-                <a
-                  href="#"
-                  className="text-black flex items-center justify-center w-9 h-9 rounded-lg border-2 border-[#E2231A]  p-2 transform "
-                >
-                  <span className="sr-only">Previous</span>
-                  <svg
-                    className="w-3 h-3 rtl:rotate-180"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 6 10"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 1 1 5l4 4"
-                    />
-                  </svg>
-                </a>
-              </li>
-
-              <li className="ml-[32px]">
-                <a
-                  href="#"
-                  className="flex items-center justify-center w-9 h-9 rounded-lg border bg-[#E2231AEB] p-2"
-                >
-                  <span className="sr-only">Next</span>
-                  <svg
-                    className="w-3 h-3 rtl:rotate-180"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 6 10"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="m1 9 4-4-4-4"
-                    />
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <div className={` flex align-center justify-center `}>
+            <button className="relative text-white  w-[440px] h-[62px] rounded-[4px] py-[14px] px-[32px]">
+              <Image
+                src={grillButton}
+                alt="Background"
+                layout="fill"
+                objectFit="cover"
+                className="absolute inset-0 z-0"
+              />
+              <p className="text-white font-roboto font-normal text-2xl leading-none tracking-normal align-middle z-1 relative">
+                See the Whole Grill
+              </p>
+            </button>
+          </div>
         </div>
       </div>
       <div className="mb-[100px] mx-[48px] gap-[24px] grid justify-center  grid-cols-3    ">
@@ -283,11 +183,11 @@ function MenuTwo() {
                     src={item.image}
                     layout="fill"
                     objectFit="cover"
-                    className="h-[336px] w-full rounded-tl-[52px] rounded-tr-[16px]"
+                    className="h-[336px] w-full "
                     alt="A perfectly grilled steak with grill marks"
                   />
                 </div>
-                <div className="bg-black w-full  gap-3  pr-5 pb-5 pl-5 rounded-br-[52px] rounded-bl-[16px]">
+                <div className="bg-black w-full  gap-3  pr-5 pb-5 pl-5 ">
                   <div className=" py-1">
                     <p className=" pt-[16px] text-center text-white font-roboto font-medium text-[28px] leading-[39.2px] tracking-0">
                       {item.price}
@@ -315,57 +215,20 @@ function MenuTwo() {
           </h3>
         </div>
         <div className=" items-center flex justify-end col-span-1 ">
-          <nav aria-label="Page navigation example">
-            <ul className="inline-flex -space-x-px text-sm">
-              <li className="">
-                <a
-                  href="#"
-                  className="text-black flex items-center justify-center w-9 h-9 rounded-lg border-2 border-[#E2231A]  p-2 transform "
-                >
-                  <span className="sr-only">Previous</span>
-                  <svg
-                    className="w-3 h-3 rtl:rotate-180"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 6 10"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 1 1 5l4 4"
-                    />
-                  </svg>
-                </a>
-              </li>
-
-              <li className="ml-[32px]">
-                <a
-                  href="#"
-                  className="flex items-center justify-center w-9 h-9 rounded-lg border bg-[#E2231AEB] p-2"
-                >
-                  <span className="sr-only">Next</span>
-                  <svg
-                    className="w-3 h-3 rtl:rotate-180"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 6 10"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="m1 9 4-4-4-4"
-                    />
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <div className={` flex align-center justify-center `}>
+            <button className="relative text-white  w-[440px] h-[62px] rounded-[4px] py-[14px] px-[32px]">
+              <Image
+                src={grillButton}
+                alt="Background"
+                layout="fill"
+                objectFit="cover"
+                className="absolute inset-0 z-0"
+              />
+              <p className="text-white font-roboto font-normal text-2xl leading-none tracking-normal align-middle z-1 relative">
+                See the Whole Grill
+              </p>
+            </button>
+          </div>
         </div>
       </div>
       <div className="mb-[176px] mx-[48px] gap-[24px] grid justify-center  grid-cols-3    ">
@@ -381,11 +244,11 @@ function MenuTwo() {
                     src={item.image}
                     layout="fill"
                     objectFit="cover"
-                    className="h-[336px] w-full rounded-tl-[52px] rounded-tr-[16px]"
+                    className="h-[336px] w-full "
                     alt="A perfectly grilled steak with grill marks"
                   />
                 </div>
-                <div className="bg-black w-full  gap-3  pr-5 pb-5 pl-5 rounded-br-[52px] rounded-bl-[16px]">
+                <div className="bg-black w-full  gap-3  pr-5 pb-5 pl-5 ">
                   <div className=" py-1">
                     <p className=" pt-[16px] text-center text-white font-roboto font-medium text-[28px] leading-[39.2px] tracking-0">
                       {item.price}

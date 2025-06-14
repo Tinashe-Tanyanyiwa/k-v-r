@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "name": "Onsite Grilling",
-    "paragraph": "Experience the thrill of onsite grilling at your event with our expert team—it's sure to be a hit!",
+    "name": "The Open Flame Experience",
+    "paragraph": "We bring the fire to you. From intimate backyard braais to lively parties, our team sets up, grills, and serves right on site. Expect the crackle of real flames, the sizzle of fresh cuts, and the rich aroma of wood smoke – a true fire-cooked experience.",
     "image": "/images/chefstwo.png"
   },
   {
     "id": 2,
-    "name": "Food market stall",
-    "paragraph": "Visit our food market stall for a tasty treat! Enjoy our delicious grilled creations and have a fun culinary adventure!",
+    "name": "Grill on the Go",
+    "paragraph": "Catch us at local markets, festivals, and pop-ups. From quick bites to hearty plates, we serve up fresh, fire-grilled flavors straight from the coals. The grill’s always hot, and the vibes are always good.",
     "image": "/images/cornbeef.png"
   },
   {
     "id": 3,
-    "name": "Braai packs",
-    "paragraph": "Enjoy grilling at home with our ready-to-go braai kits, featuring marinated meats, tasty sides, and flavorful sauces!",
+    "name": "The Grill Box",
+    "paragraph": "Ready-to-grill, packed for flavor. Our grill boxes come loaded with premium meats, fresh sides, and our signature seasonings. Perfect for a no-fuss, unforgettable grill night at home or wherever the fire calls.",
     "image": "/images/sauce.png"
   }
 ]

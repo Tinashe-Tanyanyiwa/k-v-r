@@ -30,8 +30,12 @@ function Services() {
       />
       <div className="py-[124px] relative">
         <h1 className=" w-full  text-white  mb-2 font-roboto font-bold text-[48px] leading-[57.6px] tracking--0.5 text-center  ">
-          {title}
+          Flame-Fired Services
         </h1>
+        <p className="  mb-[24px] text-white font-roboto font-normal text-base leading-[100%] tracking-[1%] text-center">
+          Real fires, real flavors, real experiences. Whether it's an open flame
+          or a backyard get-together, we've got you covered.
+        </p>
         <div className="w-full flex align-center justify-center">
           <div className="mt-[52px] mb-[44px] mx-[48px]  gap-[18px] grid justify-center  grid-cols-3    ">
             {services.map((item) => (
@@ -58,7 +62,7 @@ function Services() {
                     <p className="  mb-[24px] text-white font-roboto font-normal text-base leading-[100%] tracking-[1%] text-center">
                       {item.paragraph}
                     </p>
-                    <div className="flex align-center justify-center">
+                    {/* <div className="flex align-center justify-center">
                       <button className="rounded-[4px] py-[14px] px-[32px] relative text-white  w-[240px] h-[52px] ">
                         <Image
                           src={servbutt}
@@ -69,7 +73,7 @@ function Services() {
                         />
                         <p className="text-white z-1 relative">Book Us</p>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
