@@ -56,7 +56,7 @@ function MenuTwo() {
           >
             <div className="w-full flex justify-center place-center  rounded-tr-[16px] rounded-br-[52px] rounded-bl-[16px] ">
               <div className="">
-                <div className="w-full h-[336px] relative">
+                <div className="w-full h-[453px] relative">
                   <Image
                     src={item.image}
                     layout="fill"
@@ -117,7 +117,7 @@ function MenuTwo() {
           >
             <div className="w-full flex justify-center place-center rounded-tl-[52px] rounded-tr-[16px] rounded-br-[52px] rounded-bl-[16px] ">
               <div className="">
-                <div className="w-full h-[336px] relative">
+                <div className="w-full h-[453px] relative">
                   <Image
                     src={item.image}
                     layout="fill"
@@ -178,7 +178,7 @@ function MenuTwo() {
           >
             <div className="w-full flex justify-center place-center rounded-tl-[52px] rounded-tr-[16px] rounded-br-[52px] rounded-bl-[16px] ">
               <div className="w-full">
-                <div className="w-full h-[336px] relative">
+                <div className="w-full h-[453px] relative">
                   <Image
                     src={item.image}
                     layout="fill"
@@ -239,7 +239,7 @@ function MenuTwo() {
           >
             <div className="w-full flex justify-center place-center rounded-tl-[52px] rounded-tr-[16px] rounded-br-[52px] rounded-bl-[16px] ">
               <div className="w-full">
-                <div className="w-full h-[336px] relative">
+                <div className="w-full h-[453px] relative">
                   <Image
                     src={item.image}
                     layout="fill"

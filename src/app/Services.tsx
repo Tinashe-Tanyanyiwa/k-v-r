@@ -20,7 +20,7 @@ function Services() {
   }, [pathname]);
 
   return (
-    <div className="mb-[176px] relative bg-[#0D4737] w-full ">
+    <div className="mb-[124px] relative bg-[#0D4737] w-full ">
       <Image
         src={backg}
         alt="Outdoor food market grill"
@@ -62,18 +62,7 @@ function Services() {
                     <p className="  mb-[24px] text-white font-roboto font-normal text-base leading-[100%] tracking-[1%] text-center">
                       {item.paragraph}
                     </p>
-                    {/* <div className="flex align-center justify-center">
-                      <button className="rounded-[4px] py-[14px] px-[32px] relative text-white  w-[240px] h-[52px] ">
-                        <Image
-                          src={servbutt}
-                          alt="Background"
-                          layout="fill"
-                          objectFit="cover"
-                          className="absolute inset-0 z-0"
-                        />
-                        <p className="text-white z-1 relative">Book Us</p>
-                      </button>
-                    </div> */}
+                  
                   </div>
                 </div>
               </div>

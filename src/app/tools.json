@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "brandname": "Brand name",
+    "image": "/images/braii.png",
+    "price": 49.99,
+    "description": "MiniMax Big Green Egg with Nest and Acacia Mates Package"
+  },
+  {
+    "id": 2,
+    "brandname": "Brand name",
+    "image": "/images/braii2.png",
+    "price": 1699.0,
+    "description": "Konnected Joe™ Digital Charcoal Grill and Smoker"
+  },
+  {
+    "id": 3,
+    "brandname": "Brand name",
+    "image": "/images/braii3.png",
+    "price": 49.99,
+    "description": "3 Legged Pot size 25"
+  },
+  {
+    "id": 4,
+    "brandname": "Brand name",
+    "image": "/images/braii3.png",
+    "price": 49.99,
+    "description": "3 Legged Pot size 25"
+  }
+]
