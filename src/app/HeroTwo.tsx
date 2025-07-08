@@ -2,8 +2,8 @@
 
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import background from "@/../public/images/herobackgroundtwo.png";
-import backgroundtwo from "@/../public/images/herobackgroundthree.png";
+import background from "@/../public/images/herobackgroundfour.png";
+import backgroundtwo from "@/../public/images/herobackgroundfour.png";
 import buttonback from "@/../public/images/vector3.png";
 import buttonbacktwo from "@/../public/images/vector4.png";
 import rectangle from "@/../public/images/rectangle.png";

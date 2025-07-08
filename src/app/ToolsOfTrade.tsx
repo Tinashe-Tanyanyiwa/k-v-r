@@ -15,9 +15,9 @@ function ToolsOfTrade() {
           classics to backyard feasts, every tool has a story.
         </p>
       </div>
-      <div className="flex justify-center items-center gap-4 mb-[52px] grid grid-cols-3">
+      <div className="flex whitespace-nowrap overflow-auto scrollbar-hide justify-center items-center gap-4 mb-[52px] ">
         {tools.map((item) => (
-          <div key={item.id} className="col-span-1">
+          <div key={item.id} className=" flex-shrink-0 col-span-1">
             <div className="w-[420px]  gap-4 rounded-[1px] p-4 bg-gray-200">
               <div className="">
                 <div className="flex justify-end  ">
@@ -28,13 +28,13 @@ function ToolsOfTrade() {
                   </div>
                 </div>
                 {/* <div className=""> */}
-                <div className="w-full h-[432px] flex align-center justify-center">
+                <div className="w-[388px] h-[432px] flex align-center justify-center">
                   <Image
                     src={item.image}
                     height={432}
                     width={388}
                     alt="African girls outside"
-                    className="mr-[12px] ml-[16px] rounded-md object-cover  h-auto"
+                    className="mr-[12px] ml-[16px] rounded-md object-contain  h-auto"
                     // layout="fill"
                   />
                 </div>

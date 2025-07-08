@@ -26,5 +26,12 @@
     "image": "/images/braii3.png",
     "price": 49.99,
     "description": "3 Legged Pot size 25"
+  },
+  {
+    "id": 5,
+    "brandname": "Brand name",
+    "image": "/images/braii3.png",
+    "price": 49.99,
+    "description": "3 Legged Pot size 25"
   }
 ]
