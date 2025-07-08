@@ -90,9 +90,9 @@ function HeroTwo() {
           </div>
         </div>
         <div className="mt-[72px]">
-          <p className="h-[47px] font-roboto font-bold text-[36px] leading-[46.8px] tracking-[-0.2%] text-center text-white">
+          {/* <p className="h-[47px] font-roboto font-bold text-[36px] leading-[46.8px] tracking-[-0.2%] text-center text-white">
             Next PopUp
-          </p>
+          </p> */}
           <h1
             className={`${visible} mt-[12px] font-roboto font-bold text-[72px] leading-[86px] tracking-[-0.5px] text-center text-white`}
           >

@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "name": "Grills",
+      "image": "/images/grillingtool.png"
+    },
+    {
+      "id": 2,
+      "name": "Grills",
+      "image": "/images/grillingtooltwo.png"
+    },
+    {
+      "id": 3,
+      "name": "Grills",
+      "image": "/images/charcoal.png"
+    }
+  ]
+  
