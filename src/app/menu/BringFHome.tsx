@@ -19,7 +19,7 @@ function BringFHome() {
             <div className="  px-[17px]  w-[931.8px] h-[741.4px] ">
               <div className="mx-[32px]  relative flex  items-center justify-center">
                 <div>
-                  <h1 className="mb-[32px] font-inter font-normal text-[48px] leading-[52px] tracking-[-0.025em] text-center ">
+                  <h1 className="mb-[32px] font-inter font-normal text-[48px] leading-[52px] tracking-[-0.025em] text-center text-white">
                     Bring the Flavor Home
                   </h1>
                   <div className="w-full flex justify-center">

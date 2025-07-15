@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "brandname": "Brand name",
+      "image": "/images/braii.png",
+      "price": 49.99,
+      "description": "MiniMax Big Green Egg with Nest and Acacia Mates Package"
+    },
+    {
+      "id": 2,
+      "brandname": "Brand name",
+      "image": "/images/braii3.png",
+      "price": 49.99,
+      "description": "3 Legged Pot size 25"
+    },
+    {
+      "id": 3,
+      "brandname": "Brand name",
+      "image": "/images/braii4.png",
+      "price": 49.99,
+      "description": "BBQ Portable Charcoal Grill"
+    },
+    {
+      "id": 4,
+      "brandname": "Brand name",
+      "image": "/images/braii2.png",
+      "price": 169.00,
+      "description": "Konnected Joe™ Digital Charcoal Grill and Smoker"
+    },
+    {
+      "id": 5,
+      "brandname": "Brand name",
+      "image": "/images/braii5.png",
+      "price": 49.99,
+      "description": "Portable Gas Grill"
+    },
+    {
+      "id": 6,
+      "brandname": "Brand name",
+      "image": "/images/braii.png",
+      "price": 49.99,
+      "description": "MiniMax Big Green Egg with Nest and Acacia Mates Package"
+    },
+    {
+      "id": 7,
+      "brandname": "Brand name",
+      "image": "/images/braii.png",
+      "price": 49.99,
+      "description": "MiniMax Big Green Egg with Nest and Acacia Mates Package"
+    },
+    {
+      "id": 8,
+      "brandname": "Brand name",
+      "image": "/images/braii.png",
+      "price": 49.99,
+      "description": "MiniMax Big Green Egg with Nest and Acacia Mates Package"
+    },
+    {
+      "id": 9,
+      "brandname": "Brand name",
+      "image": "/images/braii6.png",
+      "price": 49.99,
+      "description": "Stainl Steel Heavy Duty"
+    }
+  ]
+  

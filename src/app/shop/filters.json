@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "name": "Price Range"
+    },
+    {
+      "id": 2,
+      "name": "Brand"
+    },
+    {
+      "id": 3,
+      "name": "Cooking Methods"
+    },
+    {
+      "id": 4,
+      "name": "Grill Material"
+    }
+  ]
+  

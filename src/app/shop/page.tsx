@@ -2,6 +2,9 @@ import React from "react";
 import Shop from "./Shop";
 import Navigation from "../Navigation";
 import HeroTwo from "../HeroTwo";
+import Filter from "./Filter";
+import BringFHome from "../menu/BringFHome";
+import Footer from "../FooterTwo";
 
 function page() {
   return (
@@ -9,6 +12,9 @@ function page() {
       <Navigation></Navigation>
       <HeroTwo></HeroTwo>
       <Shop></Shop>
+      <Filter></Filter>
+      <BringFHome></BringFHome>
+      <Footer></Footer>
     </div>
   );
 }
